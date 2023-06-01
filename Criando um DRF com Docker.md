@@ -35,10 +35,16 @@ Django==3.2.4
 djangorestframework==3.12.4
 ```
 
-7 - Dentro do diretório project construa a imagem
+## Docker
+
+1 - Construa um Dockerfile dentro da pasta do projeto
+
+2 - Dentro do diretório project construa a imagem
 ``` docker build -t app . ```
 
 e para subir a imagem pode utilizar o comando 
 
 ``` docker run -p 8000:8000 app```
+
+3 - Contrua um docker-compose.yaml fora da pasta projeto
 
